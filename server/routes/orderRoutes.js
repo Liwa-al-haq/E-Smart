@@ -246,7 +246,7 @@ orderRouter.put(
         invoicePath,
       });
       const mailOptions = {
-        from: 'esmartstore7@gmail.com', // Use the authenticated Gmail account
+        from: process.env.EMAIL, // Use the authenticated Gmail account
         to: userEmail, // receiver address from the payment result
         subject: "Your E-Smart Invoice",
         text: "Please find attached your invoice for the recent purchase.",
