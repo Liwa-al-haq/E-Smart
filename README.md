@@ -1,4 +1,5 @@
-# E-Smart 
+
+# E-Smart Store
 
 ## Introduction
 E-Smart Store is an advanced e-commerce platform, designed to offer a seamless online shopping experience. Built using React, MongoDB, Node.js, and Express, this website allows users to browse products, manage their shopping cart, and make purchases. It's an all-encompassing solution for both customers and administrators, featuring a wide range of functionalities.
@@ -34,22 +35,44 @@ Follow these steps to set up E-Smart Store on your local machine:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/E-Smart-Store.git
-# Install frontend dependencies
-cd client
-npm install
+   ```
 
-# Install backend dependencies
-cd ../server
-npm install
+2. Install dependencies for both frontend and backend:
+   ```bash
+   # Install frontend dependencies
+   cd frontend
+   npm install
 
-2. Set up your environment variables:
-    Create .env files in both frontend and backend directories.
-    Add necessary configurations (e.g., database URI, secret keys, PayPal API credentials).
-    
-3. Run the Application
-# In the server directory
-npm start
+   # Install backend dependencies
+   cd ../backend
+   npm install
+   ```
 
-# In a new terminal, in the client directory
-npm start
+3. Set up your environment variables:
+   - Create `.env` files in both `frontend` and `backend` directories.
+   - Add necessary configurations (e.g., database URI, secret keys, PayPal API credentials).
 
+4. Run the application:
+   ```bash
+   # In the backend directory
+   npm start
+
+   # In a new terminal, in the frontend directory
+   npm start
+   ```
+
+## Usage
+
+After installation, open your web browser and navigate to `http://localhost:3000` to start using the E-Smart Store application.
+
+## Contributing
+
+Contributions to improve E-Smart Store are always welcome. Please adhere to the project's code of conduct and follow the contribution guidelines when submitting a pull request.
+
+## Contact
+
+For queries or suggestions, feel free to reach out at [Your Contact Information].
+
+## License
+
+[Include license information here, if applicable]
