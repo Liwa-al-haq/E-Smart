@@ -40,11 +40,11 @@ Follow these steps to set up E-Smart Store on your local machine:
 2. Install dependencies for both frontend and backend:
    ```bash
    # Install frontend dependencies
-   cd frontend
+   cd client
    npm install
 
    # Install backend dependencies
-   cd ../backend
+   cd ../server
    npm install
    ```
 
@@ -65,14 +65,3 @@ Follow these steps to set up E-Smart Store on your local machine:
 
 After installation, open your web browser and navigate to `http://localhost:3000` to start using the E-Smart Store application.
 
-## Contributing
-
-Contributions to improve E-Smart Store are always welcome. Please adhere to the project's code of conduct and follow the contribution guidelines when submitting a pull request.
-
-## Contact
-
-For queries or suggestions, feel free to reach out at [Your Contact Information].
-
-## License
-
-[Include license information here, if applicable]
